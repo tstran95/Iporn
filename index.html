@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>IPORN FOR SALE</title>
+    <base href="/">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Archivo:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../assets/css/style.css">
+    <link rel="stylesheet" href="assets/css/grid.css">
+    <link rel="shortcut icon" href="../assets/images/favicon.ico" type="image/x-icon">
+    <!-- Required Core Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="node_modules/@glidejs/glide/dist/css/glide.core.min.css">
+
+    <!-- Optional Theme Stylesheet -->
+    <link rel="stylesheet" type="text/css" href="node_modules/@glidejs/glide/dist/css/glide.theme.min.css">
+    <!-- AOS -->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <header class="header" id="header">
+        <!-- Navigation -->
+        <div class="navigation">
+            <nav class="nav">
+                <div class="nav__hamburger">
+                    <svg>
+                        <use xlink:href="../assets/images/sprite.svg#icon-menu"></use>
+                    </svg>
+                </div>
+
+                <div class="nav__logo">
+                    <a href="/" class="scroll-link">IPORN</a>
+                </div>
+
+                <div class="nav__menu" id= "nav__menu">
+                    <div class="menu__top">
+                        <span class="nav__category">IPORN</span>
+                        <a href="#" class="close__toggle">
+                            <svg>
+                                <use xlink:href="../assets/images/sprite.svg#icon-cross"></use>
+                            </svg>
+                        </a>
+                    </div>
+                    
+                        <ul class="nav__list">
+                            <li class="nav__item">
+                                <a href="#header" class="nav__link scroll-link">HOME</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#category" class="nav__link scroll-link">CATEGORY</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#news" class="nav__link scroll-link">BLOG</a>
+                            </li>
+                            <li class="nav__item">
+                                <a href="#contact" class="nav__link scroll-link">CONTACT</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="nav__icons">
+                    <a href="#" class="icon__item">
+                        <svg>
+                            <use xlink:href="../assets/images/sprite.svg#icon-user"></use>
+                        </svg>
+                    </a>
+                    <a href="#" class="icon__item">
+                        <svg>
+                            <use xlink:href="../assets/images/sprite.svg#icon-search"></use>
+                        </svg>
+                    </a>
+                    <a href="#" class="icon__item">
+                        <svg>
+                            <use xlink:href="../assets/images/sprite.svg#icon-shopping-basket"></use>
+                        </svg>
+                    </a>
+                    <span id="cart__total">0</span>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    
+    <!-- GlideJs -->
+    <script src="node_modules/@glidejs/glide/dist/glide.min.js"></script>
+    <!-- AOS JS -->
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="assets/js/index.js"></script>
+    <script src="assets/js/products.js"></script>
+    <script src="assets/js/slider.js"></script>
+</body>
+</html>
